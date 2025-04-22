@@ -1,0 +1,1 @@
+import{r as d,a as t,f as r,m as s}from"./index-COIJD5_D.js";const a=600;function w(){const e=d(window.innerWidth);function n(){e.value=window.innerWidth}const i=t(()=>e.value>a),o=t(()=>!i.value);return r(()=>window.addEventListener("resize",n)),s(()=>window.removeEventListener("resize",n)),{windowWidth:e,isScreenLarge:i,isScreenSmall:o}}export{w as u};
